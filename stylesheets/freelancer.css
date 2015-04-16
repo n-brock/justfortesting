@@ -123,6 +123,7 @@ header .intro-text .skills {
     }
 }
 
+/*
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -146,7 +147,7 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
 }
-
+*/
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
