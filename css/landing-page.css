@@ -41,8 +41,8 @@ h6 {
 
 .intro-header-fda {
     text-align: left;
-    color: #bbb;
-    background: url(../img/intro-header-fda.png) no-repeat center center;
+    background: #025990;
+    /*background: url(../img/intro-header-fda.png) no-repeat center center;*/
     background-size: cover;
 }
 
@@ -59,14 +59,38 @@ h6 {
     font-size: 5em;
 }
 
+.project-title {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #f9f9f9;
+}
+
+.project-title > h1 {
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 4em;
+    font-weight: 200;
+}
+
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
+.project-divider {
+    width: 100%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 .intro-message > h3 {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+}
+
+.project-message > h3 {
+    font-weight: 100;
 }
 
 @media(max-width:767px) {
@@ -76,6 +100,10 @@ h6 {
 
     .intro-message > h1 {
         font-size: 3em;
+    }
+
+    .project-title > h1 {
+        font-size: 2em;
     }
 
     ul.intro-social-buttons > li {
