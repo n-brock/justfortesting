@@ -41,7 +41,13 @@ h6 {
 
 .intro-header-fda {
     text-align: left;
-    background: #025990;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#025990+0,73b5e3+100 */
+background: #025990; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #025990 0%, #73b5e3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #025990 0%,#73b5e3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #025990 0%,#73b5e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025990', endColorstr='#73b5e3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
     /*background: url(../img/intro-header-fda.png) no-repeat center center;*/
     background-size: cover;
 }
